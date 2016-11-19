@@ -2,7 +2,7 @@ nav{
 	position: relative;
 	padding-right: 60px;
 	padding-left: 60px;
-	height: 40px;
+	height: 50px;
 	background-color: grey;
 	width: cover;
 }
@@ -11,20 +11,19 @@ nav{
 border-radius: 50px;
 position: absolute;
 left: 10px;
-top: 10px;
+top: 5px;
 height: 30px;
 border: 1px solid black;
 }
 
 .list{
-	list-style-type: "|";
+	list-style: "|";
 	display: inline;
-	padding-left: 50px;
-	margin: 10px;
+	margin-left: 10px; 
 }
 
 .container{
-	padding-top: 50px;
+	margin-top: 100px;
 	margin-left:auto;
 	margin-right:auto;
 	width:600px;
@@ -37,7 +36,22 @@ border: 1px solid black;
 	position: absolute;
 	height:200px;
 	width: 200px;
-	right: -50px;
-	bottom:-50px;
+	right: -70px;
+	bottom:-80px;
 }
 
+.cat{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: -70px;
+	top: -80px;
+}
+
+.background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
