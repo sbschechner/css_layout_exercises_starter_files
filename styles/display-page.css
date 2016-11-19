@@ -20,22 +20,19 @@ width: 50%;
 
 .topBoxR{
 background-color: blue;
-width:200px;
 }
 
 .Lower{
-	border: solid black 1px;
-	height:300px;
+border: solid black 1px;
+height:300px;
 }
 
 .LowerBoxL{
 background-color: grey;
-width:200px;
 }
 
 .LowerBoxMid{
 background-color: black;
-width: 200px;
 }
 
 .LowerBoxR{
